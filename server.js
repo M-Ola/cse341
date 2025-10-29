@@ -1,12 +1,8 @@
 const express = require("express");
 const app = express();
-const lesson1Controller= require("./controllers/lesson1")
+const indexRoute = require("./routes/index");
 
-
-app.get("/", lesson1Controller.emilyRoute);
-
-app.get("/hannah", lesson1Controller.hannahRoute);
-
+app.use('/', indexRoute);
 
 const port = 3000;
 
