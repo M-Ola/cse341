@@ -18,8 +18,10 @@
     "url": "https://github.com/M-Ola/cse341/issues"
   },
   "homepage": "https://github.com/M-Ola/cse341#readme",
-  
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
